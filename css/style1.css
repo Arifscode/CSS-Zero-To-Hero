@@ -1,0 +1,49 @@
+h2 {
+	color: red;
+}
+
+.subtitle {
+	color: blue;
+}
+
+h2:hover {
+	color : red;
+}
+
+#services {
+	color : green;
+}
+
+/*#google-link:link {
+	color : pink;
+}
+
+#google-link:visited {
+	color : red;
+}
+
+#google-link:hover {
+	color : green;
+}*/
+
+/* every a tag that comes after h2 tag */
+h2 + a {
+	color : green;
+}
+
+/* every button tag that comes after textarea tag and both sharing same parent. */
+textarea ~ button {
+	color : purple;
+}
+
+/* every single child(direct) of a parent */
+
+ul > li {
+	color : blue;
+}
+
+/* every single child or grand chile ( level of chiled 1,2,3 ... )of a parent  */
+/*ul li {
+	color : red;
+}
+*/
